@@ -24,9 +24,9 @@ export const RadioGroup: React.FC<RadioGroupProps> = ({
 }) => {
 	return (
 		<div className={`flex flex-col gap-3 ${className}`}>
-			<label className="text-sm font-medium text-gray-700 dark:text-gray-200">
+			<span className="text-sm font-medium text-gray-700 dark:text-gray-200">
 				{label}
-			</label>
+			</span>
 			<div className="flex gap-4">
 				{options.map((option) => (
 					<label
